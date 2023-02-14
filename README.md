@@ -1,0 +1,2 @@
+# CubeSlove
+python + kociemba
