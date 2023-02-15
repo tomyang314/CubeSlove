@@ -86,15 +86,3 @@ def get_color_list():
 def command():
     get_color_list()
     return kociemba.solve(''.join(color_list))
-
-
-if __name__ == '__main__':
-    # cap = cv2.VideoCapture("http://admin@admin/192.168.43.1:8081")
-    get_color_list()
-    print(color_list)
-    # print(str(color_list))
-    # print("".join(color_list))
-    print(kociemba.solve(''.join(color_list)))
-    # print(func(frame))
-
-

@@ -135,11 +135,3 @@ def get_image(mouse, screen):
     screen.screen_shot(3)
     mouse.right_turning()
     mouse.right_turning()
-
-
-if __name__ == '__main__':
-    M = Mouse()
-    M.right(2)
-
-
-

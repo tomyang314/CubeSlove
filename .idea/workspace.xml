@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2838004e-87d6-4935-bf1a-99e0ed2d5abe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_histogram_feature_extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/command.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.data" beforeDir="false" afterPath="$PROJECT_DIR$/test.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

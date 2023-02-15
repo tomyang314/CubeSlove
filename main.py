@@ -6,7 +6,7 @@ import time
 
 
 position = (960, 910)
-path = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+path = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"  # 安装了魔方插件的chrome浏览器的路径
 
 mouse = Mouse()
 screen = Screen()
@@ -57,13 +57,12 @@ def run(execute_code: str):
             mouse.behind(2)
 
 
-def run_chrome(mode: int):
-    if mode == 0:
-        webbrowser.register("Chrome", None, webbrowser.BackgroundBrowser(path))
-        webbrowser.get("Chrome").open('chrome-extension://dlabgdldanmcjlmnifgogbnffionmfki/index.html', new=1,
-                                      autoraise=True)
+def run_chrome():
+    webbrowser.register("Chrome", None, webbrowser.BackgroundBrowser(path))
+    webbrowser.get("Chrome").open('chrome-extension://dlabgdldanmcjlmnifgogbnffionmfki/index.html', new=1,
+                                  autoraise=True)
 
-        time.sleep(6)
+    time.sleep(6)
 
     pyautogui.moveTo(position)
     pyautogui.doubleClick()
@@ -72,7 +71,7 @@ def run_chrome(mode: int):
 
 
 if __name__ == '__main__':
-    run_chrome(0)
+    run_chrome()
 
     get_image(mouse, screen)
     get_color_list()
