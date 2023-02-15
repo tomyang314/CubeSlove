@@ -72,7 +72,7 @@ def run_chrome(mode: int):
 
 
 if __name__ == '__main__':
-    run_chrome(1)
+    run_chrome(0)
 
     get_image(mouse, screen)
     get_color_list()
