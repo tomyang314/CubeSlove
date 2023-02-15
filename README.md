@@ -1,2 +1,2 @@
 # CubeSlove
-python + kociemba
+python + kociemba ..
