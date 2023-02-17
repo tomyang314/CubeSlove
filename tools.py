@@ -105,6 +105,7 @@ class Mouse:
         elif mode == 2:
             pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
             pyautogui.dragRel(900, 400, duration=0.45)
+
     def x_axis(self, mode):
         offset_x = 120
         offset_y = -50
