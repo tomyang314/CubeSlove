@@ -105,6 +105,47 @@ class Mouse:
         elif mode == 2:
             pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
             pyautogui.dragRel(900, 400, duration=0.45)
+    def x_axis(self, mode):
+        offset_x = 120
+        offset_y = -50
+
+        if mode == 0:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-15, 200, duration=0.25)
+        elif mode == 1:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-15, -200, duration=0.25)
+        elif mode == 2:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-1000, -600, duration=0.45)
+
+    def y_axis(self, mode):
+        offset_x = -120
+        offset_y = -50
+
+        if mode == 0:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-15, -200, duration=0.25)
+        elif mode == 1:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-15, 200, duration=0.25)
+        elif mode == 2:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(1000, -600, duration=0.45)
+
+    def z_axis(self, mode):
+        offset_x = -50
+        offset_y = 100
+
+        if mode == 0:
+            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
+            pyautogui.dragRel(-200, 0, duration=0.25)
+        elif mode == 1:
+            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
+            pyautogui.dragRel(200, 0, duration=0.25)
+        elif mode == 2:
+            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
+            pyautogui.dragRel(-1000, 200, duration=0.4)
 
 
 class Screen:

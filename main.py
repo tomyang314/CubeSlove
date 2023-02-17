@@ -3,6 +3,8 @@ from command import *
 from tools import Mouse, Screen, get_image
 import webbrowser
 import time
+import re
+from optimization import optimization
 
 
 position = (960, 910)
@@ -13,7 +15,7 @@ screen = Screen()
 
 
 def run(execute_code: str):
-    for val in execute_code.split(' '):
+    for val in re.split(r"[ ]+", execute_code):
         if val == "U":
             mouse.up(0)
         elif val == "U'":
@@ -56,6 +58,29 @@ def run(execute_code: str):
         elif val == "B2":
             mouse.behind(2)
 
+        elif val == "X":
+            mouse.x_axis(0)
+        elif val == "X'":
+            mouse.x_axis(1)
+        elif val == "X2":
+            mouse.x_axis(2)
+
+        elif val == "Y":
+            mouse.y_axis(0)
+        elif val == "Y'":
+            mouse.y_axis(1)
+        elif val == "Y2":
+            mouse.y_axis(2)
+
+        elif val == "Z":
+            mouse.z_axis(0)
+
+        elif val == "Z'":
+            mouse.z_axis(1)
+
+        elif val == "Z2":
+            mouse.z_axis(2)
+
 
 def run_chrome():
     webbrowser.register("Chrome", None, webbrowser.BackgroundBrowser(path))
@@ -74,9 +99,11 @@ if __name__ == '__main__':
     run_chrome()
 
     get_image(mouse, screen)
-    get_color_list()
-    code = kociemba.solve(''.join(color_list))
+    code = command()
     print(code)
 
-    run(code)
+    code_new = optimization(code)
+    print(code_new)
+
+    run(code_new)
 
