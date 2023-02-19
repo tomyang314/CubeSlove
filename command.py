@@ -1,7 +1,8 @@
 import cv2 as cv
 import color_histogram_feature_extraction
 import knn_classifier
-import kociemba
+import twophase.solver as sv
+# import kociemba
 
 
 color_dict = {"red": 'F', "orange": 'B', "yellow": 'D', "green": 'L', "blue": 'R', "white": 'U'}
@@ -85,4 +86,5 @@ def get_color_list():
 
 def command():
     get_color_list()
-    return kociemba.solve(''.join(color_list))
+    return sv.solve(''.join(color_list), 18, 2)
+    # return kociemba.solve(''.join(color_list))

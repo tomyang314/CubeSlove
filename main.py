@@ -100,10 +100,10 @@ if __name__ == '__main__':
 
     get_image(mouse, screen)
     code = command()
-    print(code)
+    print(code + '\t', len(re.split(r"\s+", code.strip())))
 
     code_new = optimization(code)
-    print(code_new)
+    print(code_new + '\t', len(re.split(r"\s+", code_new.strip())))
 
     run(code_new)
 
