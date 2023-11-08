@@ -2,6 +2,7 @@ import cv2 as cv
 import color_histogram_feature_extraction
 import knn_classifier
 import twophase.solver as sv
+import re
 # import kociemba
 
 
@@ -86,5 +87,7 @@ def get_color_list():
 
 def command():
     get_color_list()
-    return sv.solve(''.join(color_list), 18, 2)
+    result = sv.solve(''.join(color_list), 18, 2)
+
+    return re.sub(r"\([^)]*\)", '', result)
     # return kociemba.solve(''.join(color_list))

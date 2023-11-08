@@ -106,4 +106,3 @@ if __name__ == '__main__':
     print(code_new + '\t', len(re.split(r"\s+", code_new.strip())))
 
     run(code_new)
-

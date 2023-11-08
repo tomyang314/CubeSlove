@@ -2,8 +2,8 @@ from PIL import Image
 import os
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy.stats import itemfreq
+# import matplotlib.pyplot as plt
+# from scipy.stats import itemfreq
 # from color_recognition_api import knn_classifier as knn_classifier
 # from src.color_recognition_api import knn_classifier
 
