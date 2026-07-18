@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "कृपया हमें दर दें"
+  },
+  "PopupMsg2": {
+    "message": "खेलने के लिए यहां क्लिक करें।"
+  },
+  "PlayMsg9": {
+    "message": "रंग"
+  },
+  "PlayMsg10": {
+    "message": "परिपूर्णता"
+  },
+  "application_description": {
+    "message": "निःशुल्क! अपने ब्राउज़र में ही रूबिक क्यूब खेलें।"
+  },
+  "application_title": {
+    "message": "गूगल क्रोम के लिए रूबिक क्यूब"
+  },
+  "short_title": {
+    "message": "रुबिक क्यूब"
+  },
+  "PopupMsg1": {
+    "message": "नि: शुल्क! रूबिक को अपने ब्राउज़र पर ही चलाएं"
+  },
+  "PlayMsg1": {
+    "message": "शुरू करने के लिए डबल टैप करें"
+  },
+  "PlayMsg2": {
+    "message": "पूरा!"
+  },
+  "PlayMsg3": {
+    "message": "सर्वोत्तम समय!"
+  },
+  "PlayMsg4": {
+    "message": "घन आकार"
+  },
+  "PlayMsg5": {
+    "message": "फ्लिप प्रकार"
+  },
+  "PlayMsg6": {
+    "message": "हाथापाई लंबाई"
+  },
+  "PlayMsg7": {
+    "message": "कैमरा कोण"
+  },
+  "PlayMsg8": {
+    "message": "रंग योजना"
+  },
+  "PlayMsg11": {
+    "message": "लपट"
+  },
+  "PlayMsg12": {
+    "message": "घन:"
+  },
+  "PlayMsg13": {
+    "message": "कुल हल:"
+  },
+  "PlayMsg14": {
+    "message": "सर्वोत्तम समय:"
+  },
+  "PlayMsg15": {
+    "message": "सबसे ख़राब समय:"
+  },
+  "PlayMsg16": {
+    "message": "5 का औसत:"
+  },
+  "PlayMsg17": {
+    "message": "12 का औसत:"
+  },
+  "PlayMsg18": {
+    "message": "25 का औसत:"
+  }
+}

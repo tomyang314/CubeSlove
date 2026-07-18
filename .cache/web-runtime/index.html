@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title data-i18n="short_title">Rubiks Cube</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+ 
+
+<script data-cubeslove-local-runtime>window.UpUp=window.UpUp||{start:function(){}};</script>
+</head>
+<body>
+
+  <div class="ui">
+
+    <div class="ui__background"></div>
+
+    <div class="ui__game"></div>
+
+    <div class="ui__texts">
+      <h1 class="text text--title">
+        <span data-i18n="short_title" style="text-transform: uppercase;">RUBIK CUBE</span>
+      </h1>
+      <div class="text text--note" data-i18n="PlayMsg1">
+        Double tap to start
+      </div>
+      
+      <div class="text text--timer">
+        0:00
+      </div>
+      <div class="text text--complete">
+        <span data-i18n="PlayMsg2">Complete!</span>
+      </div>
+      <div class="text text--best-time">
+        <icon trophy></icon>
+        <span data-i18n="PlayMsg3">Best Time!</span>
+      </div>
+    </div>
+
+    <div class="ui__prefs">
+      <range name="size" title="Cube Size" data-i18t="PlayMsg4" list="2,3,4,5"></range>
+      <range name="flip" title="Flip Type" data-i18t="PlayMsg5" list="Swift&nbsp;,Smooth,Bounce"></range>
+      <range name="scramble" title="Scramble Length" data-i18t="PlayMsg6" list="20,25,30"></range>
+      <range name="fov" title="Camera Angle" data-i18t="PlayMsg7" list="Ortographic,Perspective"></range>
+      <range name="theme" title="Color Scheme" data-i18t="PlayMsg8" list="Cube,Erno,Dust,Camo,Rain"></range>
+    </div>
+
+    <div class="ui__theme">
+      <range name="hue" title="Hue" data-i18t="PlayMsg9" color></range>
+      <range name="saturation" title="Saturation" data-i18t="PlayMsg10" color></range>
+      <range name="lightness" title="Lightness" data-i18t="PlayMsg11" color></range>
+    </div>
+
+    <div class="ui__stats">
+      <div class="stats" name="cube-size">
+        <i data-i18n="PlayMsg12">Cube:</i><b>3x3x3</b>
+      </div>
+      <div class="stats" name="total-solves">
+        <i data-i18n="PlayMsg13">Total solves:</i><b>-</b>
+      </div>
+      <div class="stats" name="best-time">
+        <i data-i18n="PlayMsg14">Best time:</i><b>-</b>
+      </div>
+      <div class="stats" name="worst-time">
+        <i data-i18n="PlayMsg15">Worst time:</i><b>-</b>
+      </div>
+      <div class="stats" name="average-5">
+        <i data-i18n="PlayMsg16">Average of 5:</i><b>-</b>
+      </div>
+      <div class="stats" name="average-12">
+        <i data-i18n="PlayMsg17">Average of 12:</i><b>-</b>
+      </div>
+      <div class="stats" name="average-25">
+        <i data-i18n="PlayMsg18">Average of 25:</i><b>-</b>
+      </div>
+    </div>
+
+    <div class="ui__buttons">
+      <button class="btn btn--bl btn--stats">
+        <icon trophy></icon>
+      </button>
+      <button class="btn btn--br btn--prefs">
+        <icon settings></icon>
+      </button>
+      <button class="btn btn--bl btn--back">
+        <icon back></icon>
+      </button>
+      <button class="btn btn--br btn--theme">
+        <icon theme></icon>
+      </button>
+      <button class="btn btn--br btn--reset">
+        <icon reset></icon>
+      </button>
+     
+         
+      
+     
+    </div>
+
+  </div>
+
+  <script src="assets/js/three.js"></script>
+  <script src="assets/js/cube.js"></script>
+
+  
+   
+   
+
+</body>
+</html>

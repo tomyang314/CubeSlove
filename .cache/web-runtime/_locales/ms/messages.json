@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Sila Nilaikan Kami"
+  },
+  "PopupMsg2": {
+    "message": "Klik Di Sini untuk Main."
+  },
+  "PlayMsg9": {
+    "message": "Hue"
+  },
+  "PlayMsg10": {
+    "message": "ketepuan"
+  },
+  "application_description": {
+    "message": "Percuma! Main Rubik Cube terus dalam penyemak imbas anda."
+  },
+  "application_title": {
+    "message": "Rubik Cube untuk Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik Cube"
+  },
+  "PopupMsg1": {
+    "message": "Percuma! Main Rubik terus di penyemak imbas anda."
+  },
+  "PlayMsg1": {
+    "message": "Ketik dua kali untuk bermula"
+  },
+  "PlayMsg2": {
+    "message": "Lengkap!"
+  },
+  "PlayMsg3": {
+    "message": "Masa Terbaik!"
+  },
+  "PlayMsg4": {
+    "message": "Saiz Kiub"
+  },
+  "PlayMsg5": {
+    "message": "Jenis Selak"
+  },
+  "PlayMsg6": {
+    "message": "Panjang Berebut"
+  },
+  "PlayMsg7": {
+    "message": "Sudut Kamera"
+  },
+  "PlayMsg8": {
+    "message": "Skim Warna"
+  },
+  "PlayMsg11": {
+    "message": "Keringanan"
+  },
+  "PlayMsg12": {
+    "message": "Kiub:"
+  },
+  "PlayMsg13": {
+    "message": "Jumlah penyelesaian:"
+  },
+  "PlayMsg14": {
+    "message": "Masa terbaik:"
+  },
+  "PlayMsg15": {
+    "message": "Masa paling teruk:"
+  },
+  "PlayMsg16": {
+    "message": "Purata 5:"
+  },
+  "PlayMsg17": {
+    "message": "Purata 12:"
+  },
+  "PlayMsg18": {
+    "message": "Purata 25:"
+  }
+}

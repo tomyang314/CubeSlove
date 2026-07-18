@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "กรุณาให้คะแนนเรา"
+  },
+  "PopupMsg2": {
+    "message": "คลิกที่นี่เพื่อเล่น"
+  },
+  "PlayMsg9": {
+    "message": "สี"
+  },
+  "PlayMsg10": {
+    "message": "ความอิ่มตัว"
+  },
+  "application_description": {
+    "message": "ฟรี! เล่น Rubik Cube ได้เลยบนเบราว์เซอร์ของคุณ"
+  },
+  "application_title": {
+    "message": "ลูกบาศก์รูบิกสำหรับ Google Chrome"
+  },
+  "short_title": {
+    "message": "ลูกบาศก์รูบิก"
+  },
+  "PopupMsg1": {
+    "message": "ฟรี! เล่นรูบิคบนเบราว์เซอร์ของคุณ"
+  },
+  "PlayMsg1": {
+    "message": "แตะสองครั้งเพื่อเริ่มต้น"
+  },
+  "PlayMsg2": {
+    "message": "สมบูรณ์!"
+  },
+  "PlayMsg3": {
+    "message": "เวลาที่ดีที่สุด!"
+  },
+  "PlayMsg4": {
+    "message": "ขนาดลูกบาศก์"
+  },
+  "PlayMsg5": {
+    "message": "ประเภทพลิก"
+  },
+  "PlayMsg6": {
+    "message": "ความยาวการแย่งชิง"
+  },
+  "PlayMsg7": {
+    "message": "มุมกล้อง"
+  },
+  "PlayMsg8": {
+    "message": "รูปแบบสี"
+  },
+  "PlayMsg11": {
+    "message": "ความเบาสบาย"
+  },
+  "PlayMsg12": {
+    "message": "ลูกบาศก์:"
+  },
+  "PlayMsg13": {
+    "message": "รวมการแก้ปัญหา:"
+  },
+  "PlayMsg14": {
+    "message": "เวลาที่ดีที่สุด:"
+  },
+  "PlayMsg15": {
+    "message": "เวลาที่เลวร้ายที่สุด:"
+  },
+  "PlayMsg16": {
+    "message": "ค่าเฉลี่ย 5:"
+  },
+  "PlayMsg17": {
+    "message": "ค่าเฉลี่ย 12:"
+  },
+  "PlayMsg18": {
+    "message": "ค่าเฉลี่ย 25:"
+  }
+}

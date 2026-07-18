@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Будь ласка, оцініть нас"
+  },
+  "PopupMsg2": {
+    "message": "Натисніть тут, щоб грати."
+  },
+  "PlayMsg9": {
+    "message": "відтінок"
+  },
+  "PlayMsg10": {
+    "message": "насичення"
+  },
+  "application_description": {
+    "message": "безкоштовно! Грайте в Кубик Рубіка прямо у своєму браузері."
+  },
+  "application_title": {
+    "message": "Кубик Рубіка для Google Chrome"
+  },
+  "short_title": {
+    "message": "Кубик Рубіка"
+  },
+  "PopupMsg1": {
+    "message": "Безкоштовно! Грайте в Rubik прямо у своєму браузері."
+  },
+  "PlayMsg1": {
+    "message": "Двічі торкніться, щоб почати"
+  },
+  "PlayMsg2": {
+    "message": "Готово!"
+  },
+  "PlayMsg3": {
+    "message": "Кращий час!"
+  },
+  "PlayMsg4": {
+    "message": "Розмір куба"
+  },
+  "PlayMsg5": {
+    "message": "Тип перевертання"
+  },
+  "PlayMsg6": {
+    "message": "Довжина Scramble"
+  },
+  "PlayMsg7": {
+    "message": "Ракурс камери"
+  },
+  "PlayMsg8": {
+    "message": "Колірна схема"
+  },
+  "PlayMsg11": {
+    "message": "Легкість"
+  },
+  "PlayMsg12": {
+    "message": "куб:"
+  },
+  "PlayMsg13": {
+    "message": "Загальна кількість розв’язків:"
+  },
+  "PlayMsg14": {
+    "message": "Найкращий час:"
+  },
+  "PlayMsg15": {
+    "message": "Найгірший час:"
+  },
+  "PlayMsg16": {
+    "message": "Середнє 5:"
+  },
+  "PlayMsg17": {
+    "message": "Середнє значення 12:"
+  },
+  "PlayMsg18": {
+    "message": "Середнє значення 25:"
+  }
+}

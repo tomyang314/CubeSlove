@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "אנא דרג אותנו"
+  },
+  "PopupMsg2": {
+    "message": "לחץ כאן כדי לשחק."
+  },
+  "PlayMsg9": {
+    "message": "צֶבַע"
+  },
+  "PlayMsg10": {
+    "message": "רִוּוּי"
+  },
+  "application_description": {
+    "message": "לְשַׁחְרֵר! שחקו את Rubik Cube ישירות בדפדפן שלכם."
+  },
+  "application_title": {
+    "message": "Rubik Cube עבור Google Chrome"
+  },
+  "short_title": {
+    "message": "רוביק קיוב"
+  },
+  "PopupMsg1": {
+    "message": "חינם! הפעל את Rubik ישירות בדפדפן שלך."
+  },
+  "PlayMsg1": {
+    "message": "הקש פעמיים כדי להתחיל"
+  },
+  "PlayMsg2": {
+    "message": "לְהַשְׁלִים!"
+  },
+  "PlayMsg3": {
+    "message": "הזמן הטוב ביותר!"
+  },
+  "PlayMsg4": {
+    "message": "גודל קובייה"
+  },
+  "PlayMsg5": {
+    "message": "סוג היפוך"
+  },
+  "PlayMsg6": {
+    "message": "אורך ערבול"
+  },
+  "PlayMsg7": {
+    "message": "זווית מצלמה"
+  },
+  "PlayMsg8": {
+    "message": "ערכת צבעים"
+  },
+  "PlayMsg11": {
+    "message": "קְלִילוּת"
+  },
+  "PlayMsg12": {
+    "message": "קוּבִּיָה:"
+  },
+  "PlayMsg13": {
+    "message": "סך הכל פותר:"
+  },
+  "PlayMsg14": {
+    "message": "הזמן הטוב ביותר:"
+  },
+  "PlayMsg15": {
+    "message": "הזמן הגרוע ביותר:"
+  },
+  "PlayMsg16": {
+    "message": "ממוצע של 5:"
+  },
+  "PlayMsg17": {
+    "message": "ממוצע של 12:"
+  },
+  "PlayMsg18": {
+    "message": "ממוצע של 25:"
+  }
+}

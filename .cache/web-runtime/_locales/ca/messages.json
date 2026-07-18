@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Si us plau, puntueu-nos"
+  },
+  "PopupMsg2": {
+    "message": "Feu clic aquí per jugar."
+  },
+  "PlayMsg9": {
+    "message": "matís"
+  },
+  "PlayMsg10": {
+    "message": "saturació"
+  },
+  "application_description": {
+    "message": "Gratuït! Juga a Rubik Cube directament al teu navegador."
+  },
+  "application_title": {
+    "message": "Cub Rubik per a Google Chrome"
+  },
+  "short_title": {
+    "message": "Cub Rubik"
+  },
+  "PopupMsg1": {
+    "message": "Gratuït Juga a Rubik directament al navegador."
+  },
+  "PlayMsg1": {
+    "message": "Fes doble toc per començar"
+  },
+  "PlayMsg2": {
+    "message": "Completa!"
+  },
+  "PlayMsg3": {
+    "message": "El millor moment!"
+  },
+  "PlayMsg4": {
+    "message": "Mida del cub"
+  },
+  "PlayMsg5": {
+    "message": "Tipus de volteig"
+  },
+  "PlayMsg6": {
+    "message": "Llargada de la baralla"
+  },
+  "PlayMsg7": {
+    "message": "Angle de càmera"
+  },
+  "PlayMsg8": {
+    "message": "Esquema de colors"
+  },
+  "PlayMsg11": {
+    "message": "Lleugeresa"
+  },
+  "PlayMsg12": {
+    "message": "Cub:"
+  },
+  "PlayMsg13": {
+    "message": "Resolucions totals:"
+  },
+  "PlayMsg14": {
+    "message": "Millor hora:"
+  },
+  "PlayMsg15": {
+    "message": "El pitjor moment:"
+  },
+  "PlayMsg16": {
+    "message": "Mitjana de 5:"
+  },
+  "PlayMsg17": {
+    "message": "Mitjana de 12:"
+  },
+  "PlayMsg18": {
+    "message": "Mitjana de 25:"
+  }
+}

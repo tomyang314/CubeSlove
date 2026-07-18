@@ -1,0 +1,32 @@
+{
+   "application_description": {
+      "message": "Free! Play Rubik Cube right in your browser."
+   },
+   "application_title": {
+      "message": "Rubik Cube for Google Chrome"
+   }
+   ,"short_title": {
+      "message": "Rubik Cube"
+   }
+   ,"RateUs": {
+      "message": "Please Rate Us"
+   }
+   ,"PopupMsg1": {
+      "message": "Free! Play Rubik right on your browser."
+   }
+   ,"PopupMsg2": {
+      "message": "Click Here to Play."
+   }
+   ,"PlayMsg1": {
+      "message": "Double tap to start"
+   }
+   ,"PlayMsg2": {
+      "message": "Complete!"
+   }
+   ,"PlayMsg3": {
+      "message": "Best Time!"
+   }
+   ,"PlayMsg4": {
+      "message": "Cube Size"
+   }
+}

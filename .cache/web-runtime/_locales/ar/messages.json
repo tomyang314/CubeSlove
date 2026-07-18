@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "ارجوك قم بتقييمنا"
+  },
+  "PopupMsg2": {
+    "message": "انقر هنا للعب."
+  },
+  "PlayMsg9": {
+    "message": "مسحة"
+  },
+  "PlayMsg10": {
+    "message": "التشبع"
+  },
+  "application_description": {
+    "message": "مجانًا! العب مكعب روبيك مباشرة في متصفحك."
+  },
+  "application_title": {
+    "message": "مكعب روبيك لجوجل كروم"
+  },
+  "short_title": {
+    "message": "مكعب روبيك"
+  },
+  "PopupMsg1": {
+    "message": "حر! قم بتشغيل Rubik مباشرة على متصفحك."
+  },
+  "PlayMsg1": {
+    "message": "انقر مرتين للبدء"
+  },
+  "PlayMsg2": {
+    "message": "مكتمل!"
+  },
+  "PlayMsg3": {
+    "message": "أفضل وقت!"
+  },
+  "PlayMsg4": {
+    "message": "حجم المكعب"
+  },
+  "PlayMsg5": {
+    "message": "نوع الوجه"
+  },
+  "PlayMsg6": {
+    "message": "طول التدافع"
+  },
+  "PlayMsg7": {
+    "message": "زاوية الكاميرا"
+  },
+  "PlayMsg8": {
+    "message": "مخطط الألوان"
+  },
+  "PlayMsg11": {
+    "message": "خفة"
+  },
+  "PlayMsg12": {
+    "message": "مكعب:"
+  },
+  "PlayMsg13": {
+    "message": "مجموع الحلول:"
+  },
+  "PlayMsg14": {
+    "message": "أفضل وقت:"
+  },
+  "PlayMsg15": {
+    "message": "أسوأ وقت:"
+  },
+  "PlayMsg16": {
+    "message": "المعدل 5:"
+  },
+  "PlayMsg17": {
+    "message": "المعدل 12:"
+  },
+  "PlayMsg18": {
+    "message": "المعدل 25:"
+  }
+}

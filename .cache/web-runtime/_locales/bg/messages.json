@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Моля, оценете ни"
+  },
+  "PopupMsg2": {
+    "message": "Щракнете тук, за да играете."
+  },
+  "PlayMsg9": {
+    "message": "оттенък"
+  },
+  "PlayMsg10": {
+    "message": "насищане"
+  },
+  "application_description": {
+    "message": "безплатно! Играйте Rubik Cube направо във вашия браузър."
+  },
+  "application_title": {
+    "message": "Кубче Рубик за Google Chrome"
+  },
+  "short_title": {
+    "message": "Кубче Рубик"
+  },
+  "PopupMsg1": {
+    "message": "Безплатно! Играйте Rubik направо в браузъра си."
+  },
+  "PlayMsg1": {
+    "message": "Докоснете два пъти, за да започнете"
+  },
+  "PlayMsg2": {
+    "message": "Завършен!"
+  },
+  "PlayMsg3": {
+    "message": "Най-доброто време!"
+  },
+  "PlayMsg4": {
+    "message": "Размер на куба"
+  },
+  "PlayMsg5": {
+    "message": "Тип обръщане"
+  },
+  "PlayMsg6": {
+    "message": "Дължина на разбъркване"
+  },
+  "PlayMsg7": {
+    "message": "Ъгъл на камерата"
+  },
+  "PlayMsg8": {
+    "message": "Цветова схема"
+  },
+  "PlayMsg11": {
+    "message": "Лекота"
+  },
+  "PlayMsg12": {
+    "message": "куб:"
+  },
+  "PlayMsg13": {
+    "message": "Общо решавания:"
+  },
+  "PlayMsg14": {
+    "message": "Най-добро време:"
+  },
+  "PlayMsg15": {
+    "message": "Най-лошото време:"
+  },
+  "PlayMsg16": {
+    "message": "Средно 5:"
+  },
+  "PlayMsg17": {
+    "message": "Средно 12:"
+  },
+  "PlayMsg18": {
+    "message": "Средно 25:"
+  }
+}

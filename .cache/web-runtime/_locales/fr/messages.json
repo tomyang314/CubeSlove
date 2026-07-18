@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Veuillez nous évaluer"
+  },
+  "PopupMsg2": {
+    "message": "Cliquez ici pour jouer."
+  },
+  "PlayMsg9": {
+    "message": "Teinte"
+  },
+  "PlayMsg10": {
+    "message": "Saturation"
+  },
+  "application_description": {
+    "message": "Gratuit ! Jouez au Rubik Cube directement dans votre navigateur."
+  },
+  "application_title": {
+    "message": "Rubik Cube pour Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik Cube"
+  },
+  "PopupMsg1": {
+    "message": "Libérer! Jouez à Rubik directement sur votre navigateur."
+  },
+  "PlayMsg1": {
+    "message": "Appuyez deux fois pour démarrer"
+  },
+  "PlayMsg2": {
+    "message": "Complet!"
+  },
+  "PlayMsg3": {
+    "message": "Meilleur moment !"
+  },
+  "PlayMsg4": {
+    "message": "Taille du cube"
+  },
+  "PlayMsg5": {
+    "message": "Type de retournement"
+  },
+  "PlayMsg6": {
+    "message": "Longueur de brouillage"
+  },
+  "PlayMsg7": {
+    "message": "Angle de la caméra"
+  },
+  "PlayMsg8": {
+    "message": "Palette de couleurs"
+  },
+  "PlayMsg11": {
+    "message": "Légèreté"
+  },
+  "PlayMsg12": {
+    "message": "Cube:"
+  },
+  "PlayMsg13": {
+    "message": "Nombre total de résolutions :"
+  },
+  "PlayMsg14": {
+    "message": "Meilleur moment :"
+  },
+  "PlayMsg15": {
+    "message": "Le pire moment :"
+  },
+  "PlayMsg16": {
+    "message": "Moyenne de 5:"
+  },
+  "PlayMsg17": {
+    "message": "Moyenne de 12:"
+  },
+  "PlayMsg18": {
+    "message": "Moyenne de 25:"
+  }
+}

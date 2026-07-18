@@ -1,0 +1,74 @@
+{
+	"application_description": {
+		"message": "Free! Play Rubik Cube right in your browser."
+	},
+	"application_title": {
+		"message": "Rubik Cube for Google Chrome"
+	},
+	"short_title": {
+		"message": "Rubik Cube"
+	},
+	"RateUs": {
+		"message": "Please Rate Us"
+	},
+	"PopupMsg1": {
+		"message": "Free! Play Rubik right on your browser."
+	},
+	"PopupMsg2": {
+		"message": "Click Here to Play."
+	},
+	"PlayMsg1": {
+		"message": "Double tap to start"
+	},
+	"PlayMsg2": {
+		"message": "Complete!"
+	},
+	"PlayMsg3": {
+		"message": "Best Time!"
+	},
+	"PlayMsg4": {
+		"message": "Cube Size"
+	},
+	"PlayMsg5": {
+		"message": "Flip Type"
+	},
+	"PlayMsg6": {
+		"message": "Scramble Length"
+	},
+	"PlayMsg7": {
+		"message": "Camera Angle"
+	},
+	"PlayMsg8": {
+		"message": "Color Scheme"
+	},
+	"PlayMsg9": {
+		"message": "Hue"
+	},
+	"PlayMsg10": {
+		"message": "Saturation"
+	},
+	"PlayMsg11": {
+		"message": "Lightness"
+	},
+	"PlayMsg12": {
+		"message": "Cube:"
+	},
+	"PlayMsg13": {
+		"message": "Total solves:"
+	},
+	"PlayMsg14": {
+		"message": "Best time:"
+	},
+	"PlayMsg15": {
+		"message": "Worst time:"
+	},
+	"PlayMsg16": {
+		"message": "Average of 5:"
+	},
+	"PlayMsg17": {
+		"message": "Average of 12:"
+	},
+	"PlayMsg18": {
+		"message": "Average of 25:"
+	}
+}

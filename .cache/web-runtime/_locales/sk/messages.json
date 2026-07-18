@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Ohodnoťte nás"
+  },
+  "PopupMsg2": {
+    "message": "Ak chcete hrať, kliknite sem."
+  },
+  "PlayMsg9": {
+    "message": "odtieň"
+  },
+  "PlayMsg10": {
+    "message": "nasýtenia"
+  },
+  "application_description": {
+    "message": "Zadarmo! Zahrajte si Rubikovu kocku priamo vo svojom prehliadači."
+  },
+  "application_title": {
+    "message": "Rubikova kocka pre Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubikova kocka"
+  },
+  "PopupMsg1": {
+    "message": "Zadarmo! Hrajte Rubik priamo vo svojom prehliadači."
+  },
+  "PlayMsg1": {
+    "message": "Začnite dvojitým klepnutím"
+  },
+  "PlayMsg2": {
+    "message": "Hotovo!"
+  },
+  "PlayMsg3": {
+    "message": "Najlepší čas!"
+  },
+  "PlayMsg4": {
+    "message": "Veľkosť kocky"
+  },
+  "PlayMsg5": {
+    "message": "Typ prevrátenia"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Dĺžka"
+  },
+  "PlayMsg7": {
+    "message": "Uhol kamery"
+  },
+  "PlayMsg8": {
+    "message": "Farebná schéma"
+  },
+  "PlayMsg11": {
+    "message": "Ľahkosť"
+  },
+  "PlayMsg12": {
+    "message": "Kocka:"
+  },
+  "PlayMsg13": {
+    "message": "Celkom rieši:"
+  },
+  "PlayMsg14": {
+    "message": "Najlepší čas:"
+  },
+  "PlayMsg15": {
+    "message": "Najhorší čas:"
+  },
+  "PlayMsg16": {
+    "message": "Priemer 5:"
+  },
+  "PlayMsg17": {
+    "message": "Priemer 12:"
+  },
+  "PlayMsg18": {
+    "message": "Priemer 25:"
+  }
+}

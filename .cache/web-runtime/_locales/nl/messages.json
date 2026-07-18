@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Beoordeel ons"
+  },
+  "PopupMsg2": {
+    "message": "Klik hier om te spelen."
+  },
+  "PlayMsg9": {
+    "message": "Tint"
+  },
+  "PlayMsg10": {
+    "message": "Verzadiging"
+  },
+  "application_description": {
+    "message": "Gratis! Speel Rubik Cube rechtstreeks in uw browser."
+  },
+  "application_title": {
+    "message": "Rubik Cube voor Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik Kubus"
+  },
+  "PopupMsg1": {
+    "message": "Vrij! Speel Rubik rechtstreeks in uw browser."
+  },
+  "PlayMsg1": {
+    "message": "Dubbeltik om te starten"
+  },
+  "PlayMsg2": {
+    "message": "Compleet!"
+  },
+  "PlayMsg3": {
+    "message": "Beste tijd!"
+  },
+  "PlayMsg4": {
+    "message": "Kubusgrootte"
+  },
+  "PlayMsg5": {
+    "message": "Flip-type"
+  },
+  "PlayMsg6": {
+    "message": "Scramble-lengte"
+  },
+  "PlayMsg7": {
+    "message": "Camerahoek"
+  },
+  "PlayMsg8": {
+    "message": "Kleurenschema"
+  },
+  "PlayMsg11": {
+    "message": "Lichtheid"
+  },
+  "PlayMsg12": {
+    "message": "Kubus:"
+  },
+  "PlayMsg13": {
+    "message": "Totaal aantal oplossingen:"
+  },
+  "PlayMsg14": {
+    "message": "Beste tijd:"
+  },
+  "PlayMsg15": {
+    "message": "Slechtste tijd:"
+  },
+  "PlayMsg16": {
+    "message": "Gemiddelde van 5:"
+  },
+  "PlayMsg17": {
+    "message": "Gemiddelde van 12:"
+  },
+  "PlayMsg18": {
+    "message": "Gemiddelde van 25:"
+  }
+}

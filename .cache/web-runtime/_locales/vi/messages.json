@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Vui lòng đánh giá chúng tôi"
+  },
+  "PopupMsg2": {
+    "message": "Nhấp vào đây để chơi."
+  },
+  "PlayMsg9": {
+    "message": "Huế"
+  },
+  "PlayMsg10": {
+    "message": "Bão hòa"
+  },
+  "application_description": {
+    "message": "Miễn phí! Chơi Rubik Cube ngay trên trình duyệt của bạn."
+  },
+  "application_title": {
+    "message": "Rubik Cube cho Google Chrome"
+  },
+  "short_title": {
+    "message": "Khối Rubik"
+  },
+  "PopupMsg1": {
+    "message": "Miễn phí! Chơi Rubik ngay trên trình duyệt của bạn."
+  },
+  "PlayMsg1": {
+    "message": "Nhấn đúp để bắt đầu"
+  },
+  "PlayMsg2": {
+    "message": "Hoàn thành!"
+  },
+  "PlayMsg3": {
+    "message": "Thời gian tuyệt vời nhất!"
+  },
+  "PlayMsg4": {
+    "message": "Kích thước khối lập phương"
+  },
+  "PlayMsg5": {
+    "message": "Kiểu lật"
+  },
+  "PlayMsg6": {
+    "message": "Chiều dài xáo trộn"
+  },
+  "PlayMsg7": {
+    "message": "Góc máy ảnh"
+  },
+  "PlayMsg8": {
+    "message": "Bảng màu"
+  },
+  "PlayMsg11": {
+    "message": "Sự nhẹ nhàng"
+  },
+  "PlayMsg12": {
+    "message": "Hình khối:"
+  },
+  "PlayMsg13": {
+    "message": "Tổng số giải quyết:"
+  },
+  "PlayMsg14": {
+    "message": "Thời gian tốt nhất:"
+  },
+  "PlayMsg15": {
+    "message": "Thời gian tệ nhất:"
+  },
+  "PlayMsg16": {
+    "message": "Trung bình của 5:"
+  },
+  "PlayMsg17": {
+    "message": "Trung bình của 12:"
+  },
+  "PlayMsg18": {
+    "message": "Trung bình của 25:"
+  }
+}

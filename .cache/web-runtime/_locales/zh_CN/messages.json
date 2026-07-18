@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "请给我们评分"
+  },
+  "PopupMsg2": {
+    "message": "单击此处播放。"
+  },
+  "PlayMsg9": {
+    "message": "色调"
+  },
+  "PlayMsg10": {
+    "message": "饱和"
+  },
+  "application_description": {
+    "message": "免费！直接在浏览器中玩魔方。"
+  },
+  "application_title": {
+    "message": "适用于 Google Chrome 的魔方"
+  },
+  "short_title": {
+    "message": "魔方"
+  },
+  "PopupMsg1": {
+    "message": "自由！在浏览器上直接播放Rubik。"
+  },
+  "PlayMsg1": {
+    "message": "双击开始"
+  },
+  "PlayMsg2": {
+    "message": "完全的！"
+  },
+  "PlayMsg3": {
+    "message": "最佳時間！"
+  },
+  "PlayMsg4": {
+    "message": "立方体尺寸"
+  },
+  "PlayMsg5": {
+    "message": "翻盖式"
+  },
+  "PlayMsg6": {
+    "message": "争夺长度"
+  },
+  "PlayMsg7": {
+    "message": "摄像机角度"
+  },
+  "PlayMsg8": {
+    "message": "配色方案"
+  },
+  "PlayMsg11": {
+    "message": "亮度"
+  },
+  "PlayMsg12": {
+    "message": "立方体："
+  },
+  "PlayMsg13": {
+    "message": "总解法："
+  },
+  "PlayMsg14": {
+    "message": "最佳时间："
+  },
+  "PlayMsg15": {
+    "message": "最糟糕时刻："
+  },
+  "PlayMsg16": {
+    "message": "5 的平均值："
+  },
+  "PlayMsg17": {
+    "message": "12 的平均值："
+  },
+  "PlayMsg18": {
+    "message": "25 的平均值："
+  }
+}

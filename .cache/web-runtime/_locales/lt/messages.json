@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Prašau Įvertink mus"
+  },
+  "PopupMsg2": {
+    "message": "Norėdami žaisti, spustelėkite čia."
+  },
+  "PlayMsg9": {
+    "message": "Atspalvis"
+  },
+  "PlayMsg10": {
+    "message": "sotis"
+  },
+  "application_description": {
+    "message": "Nemokamai! Žaiskite Rubiko kubą tiesiai savo naršyklėje."
+  },
+  "application_title": {
+    "message": "Rubiko kubas, skirtas Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubiko kubas"
+  },
+  "PopupMsg1": {
+    "message": "Laisvas! Grokite „Rubik“ tiesiai savo naršyklėje."
+  },
+  "PlayMsg1": {
+    "message": "Dukart palieskite, kad pradėtumėte"
+  },
+  "PlayMsg2": {
+    "message": "Užbaigta!"
+  },
+  "PlayMsg3": {
+    "message": "Geriausias laikas!"
+  },
+  "PlayMsg4": {
+    "message": "Kubo dydis"
+  },
+  "PlayMsg5": {
+    "message": "Apvertimo tipas"
+  },
+  "PlayMsg6": {
+    "message": "Kovos ilgis"
+  },
+  "PlayMsg7": {
+    "message": "Kameros kampas"
+  },
+  "PlayMsg8": {
+    "message": "Spalvų schema"
+  },
+  "PlayMsg11": {
+    "message": "Lengvumas"
+  },
+  "PlayMsg12": {
+    "message": "Kubas:"
+  },
+  "PlayMsg13": {
+    "message": "Iš viso sprendimų:"
+  },
+  "PlayMsg14": {
+    "message": "Geriausias laikas:"
+  },
+  "PlayMsg15": {
+    "message": "Blogiausias laikas:"
+  },
+  "PlayMsg16": {
+    "message": "5 vidurkis:"
+  },
+  "PlayMsg17": {
+    "message": "12 vidurkis:"
+  },
+  "PlayMsg18": {
+    "message": "25 vidurkis:"
+  }
+}

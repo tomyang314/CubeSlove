@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Молимо оцените нас"
+  },
+  "PopupMsg2": {
+    "message": "Кликните овде да бисте играли."
+  },
+  "PlayMsg9": {
+    "message": "Нијанса"
+  },
+  "PlayMsg10": {
+    "message": "Засићење"
+  },
+  "application_description": {
+    "message": "Бесплатно! Играјте Рубик коцку директно у свом претраживачу."
+  },
+  "application_title": {
+    "message": "Рубикова коцка за Гоогле Цхроме"
+  },
+  "short_title": {
+    "message": "Рубикова коцка"
+  },
+  "PopupMsg1": {
+    "message": "Бесплатно! Репродукујте Рубик директно у свом прегледачу."
+  },
+  "PlayMsg1": {
+    "message": "Двапут додирните за почетак"
+  },
+  "PlayMsg2": {
+    "message": "Завршено!"
+  },
+  "PlayMsg3": {
+    "message": "Бест Тиме!"
+  },
+  "PlayMsg4": {
+    "message": "Величина коцке"
+  },
+  "PlayMsg5": {
+    "message": "Флип Типе"
+  },
+  "PlayMsg6": {
+    "message": "Сцрамбле Ленгтх"
+  },
+  "PlayMsg7": {
+    "message": "Угао камере"
+  },
+  "PlayMsg8": {
+    "message": "Шема боја"
+  },
+  "PlayMsg11": {
+    "message": "Лакоћа"
+  },
+  "PlayMsg12": {
+    "message": "коцка:"
+  },
+  "PlayMsg13": {
+    "message": "Укупно решава:"
+  },
+  "PlayMsg14": {
+    "message": "Најбоље време:"
+  },
+  "PlayMsg15": {
+    "message": "Најгоре време:"
+  },
+  "PlayMsg16": {
+    "message": "Просек од 5:"
+  },
+  "PlayMsg17": {
+    "message": "Просек од 12:"
+  },
+  "PlayMsg18": {
+    "message": "Просек од 25:"
+  }
+}

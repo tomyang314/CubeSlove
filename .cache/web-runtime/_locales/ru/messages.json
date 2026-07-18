@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Пожалуйста, оцените нас"
+  },
+  "PopupMsg2": {
+    "message": "Нажмите здесь, чтобы начать игру."
+  },
+  "PlayMsg9": {
+    "message": "оттенок"
+  },
+  "PlayMsg10": {
+    "message": "насыщение"
+  },
+  "application_description": {
+    "message": "Бесплатно! Играйте в кубик Рубика прямо в браузере."
+  },
+  "application_title": {
+    "message": "Кубик Рубика для Google Chrome"
+  },
+  "short_title": {
+    "message": "Кубик Рубика"
+  },
+  "PopupMsg1": {
+    "message": "Свободный! Играйте в Rubik прямо в браузере."
+  },
+  "PlayMsg1": {
+    "message": "Дважды нажмите, чтобы начать"
+  },
+  "PlayMsg2": {
+    "message": "Полный!"
+  },
+  "PlayMsg3": {
+    "message": "Лучшее время!"
+  },
+  "PlayMsg4": {
+    "message": "Размер куба"
+  },
+  "PlayMsg5": {
+    "message": "Тип переворота"
+  },
+  "PlayMsg6": {
+    "message": "Длина схватки"
+  },
+  "PlayMsg7": {
+    "message": "Угол обзора камеры"
+  },
+  "PlayMsg8": {
+    "message": "Цветовая схема"
+  },
+  "PlayMsg11": {
+    "message": "Легкость"
+  },
+  "PlayMsg12": {
+    "message": "Куб:"
+  },
+  "PlayMsg13": {
+    "message": "Всего решено:"
+  },
+  "PlayMsg14": {
+    "message": "Лучшее время:"
+  },
+  "PlayMsg15": {
+    "message": "Худшее время:"
+  },
+  "PlayMsg16": {
+    "message": "Среднее из 5:"
+  },
+  "PlayMsg17": {
+    "message": "Среднее из 12:"
+  },
+  "PlayMsg18": {
+    "message": "Среднее из 25:"
+  }
+}

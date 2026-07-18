@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Ole hyvä ja arvioi meitä"
+  },
+  "PopupMsg2": {
+    "message": "Napsauta tästä pelataksesi."
+  },
+  "PlayMsg9": {
+    "message": "Värisävy"
+  },
+  "PlayMsg10": {
+    "message": "kyllästys"
+  },
+  "application_description": {
+    "message": "Ilmainen! Pelaa Rubik Cubea suoraan selaimessasi."
+  },
+  "application_title": {
+    "message": "Rubikin kuutio Google Chromelle"
+  },
+  "short_title": {
+    "message": "Rubikin kuutio"
+  },
+  "PopupMsg1": {
+    "message": "Vapaa! Toista Rubik suoraan selaimellasi."
+  },
+  "PlayMsg1": {
+    "message": "Aloita kaksoisnapauttamalla"
+  },
+  "PlayMsg2": {
+    "message": "Täydellinen!"
+  },
+  "PlayMsg3": {
+    "message": "Paras aika!"
+  },
+  "PlayMsg4": {
+    "message": "Kuution koko"
+  },
+  "PlayMsg5": {
+    "message": "Kääntötyyppi"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Length"
+  },
+  "PlayMsg7": {
+    "message": "Kameran kulma"
+  },
+  "PlayMsg8": {
+    "message": "Värimalli"
+  },
+  "PlayMsg11": {
+    "message": "Keveys"
+  },
+  "PlayMsg12": {
+    "message": "Kuutio:"
+  },
+  "PlayMsg13": {
+    "message": "Ratkaisuja yhteensä:"
+  },
+  "PlayMsg14": {
+    "message": "Paras aika:"
+  },
+  "PlayMsg15": {
+    "message": "Huonoin aika:"
+  },
+  "PlayMsg16": {
+    "message": "Keskiarvo 5:"
+  },
+  "PlayMsg17": {
+    "message": "Keskiarvo 12:"
+  },
+  "PlayMsg18": {
+    "message": "Keskiarvo 25:"
+  }
+}

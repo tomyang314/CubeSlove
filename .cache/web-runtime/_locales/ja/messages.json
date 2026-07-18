@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "評価してください"
+  },
+  "PopupMsg2": {
+    "message": "再生するにはここをクリックしてください。"
+  },
+  "PlayMsg9": {
+    "message": "色相"
+  },
+  "PlayMsg10": {
+    "message": "飽和"
+  },
+  "application_description": {
+    "message": "無料！ブラウザでルービックキューブをプレイしましょう。"
+  },
+  "application_title": {
+    "message": "Google Chrome 用ルービックキューブ"
+  },
+  "short_title": {
+    "message": "ルービックキューブ"
+  },
+  "PopupMsg1": {
+    "message": "自由！ブラウザでルービックキューブを再生します。"
+  },
+  "PlayMsg1": {
+    "message": "ダブルタップして開始"
+  },
+  "PlayMsg2": {
+    "message": "完了！"
+  },
+  "PlayMsg3": {
+    "message": "最高の時間！"
+  },
+  "PlayMsg4": {
+    "message": "キューブサイズ"
+  },
+  "PlayMsg5": {
+    "message": "フリップタイプ"
+  },
+  "PlayMsg6": {
+    "message": "スクランブルの長さ"
+  },
+  "PlayMsg7": {
+    "message": "カメラアングル"
+  },
+  "PlayMsg8": {
+    "message": "配色"
+  },
+  "PlayMsg11": {
+    "message": "軽さ"
+  },
+  "PlayMsg12": {
+    "message": "キューブ:"
+  },
+  "PlayMsg13": {
+    "message": "合計解決数:"
+  },
+  "PlayMsg14": {
+    "message": "ベストタイム:"
+  },
+  "PlayMsg15": {
+    "message": "最悪の時間:"
+  },
+  "PlayMsg16": {
+    "message": "5の平均:"
+  },
+  "PlayMsg17": {
+    "message": "12の平均:"
+  },
+  "PlayMsg18": {
+    "message": "25の平均:"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Παρακαλώ αξιολογήστε μας"
+  },
+  "PopupMsg2": {
+    "message": "Κάντε κλικ εδώ για αναπαραγωγή."
+  },
+  "PlayMsg9": {
+    "message": "Απόχρωση"
+  },
+  "PlayMsg10": {
+    "message": "Κορεσμός"
+  },
+  "application_description": {
+    "message": "Δωρεάν! Παίξτε Rubik Cube απευθείας στο πρόγραμμα περιήγησής σας."
+  },
+  "application_title": {
+    "message": "Rubik Cube για το Google Chrome"
+  },
+  "short_title": {
+    "message": "Κύβος Ρούμπικ"
+  },
+  "PopupMsg1": {
+    "message": "Ελεύθερος! Παίξτε Rubik απευθείας στο πρόγραμμα περιήγησής σας."
+  },
+  "PlayMsg1": {
+    "message": "Πατήστε δύο φορές για να ξεκινήσετε"
+  },
+  "PlayMsg2": {
+    "message": "Πλήρης!"
+  },
+  "PlayMsg3": {
+    "message": "Καλύτερη ώρα!"
+  },
+  "PlayMsg4": {
+    "message": "Μέγεθος κύβου"
+  },
+  "PlayMsg5": {
+    "message": "Τύπος αναστροφής"
+  },
+  "PlayMsg6": {
+    "message": "Μήκος ανακατεύοντας"
+  },
+  "PlayMsg7": {
+    "message": "Γωνία κάμερας"
+  },
+  "PlayMsg8": {
+    "message": "Σχέδιο χρωμάτων"
+  },
+  "PlayMsg11": {
+    "message": "Ελαφρότητα"
+  },
+  "PlayMsg12": {
+    "message": "Κύβος:"
+  },
+  "PlayMsg13": {
+    "message": "Συνολικές λύσεις:"
+  },
+  "PlayMsg14": {
+    "message": "Καλύτερη ώρα:"
+  },
+  "PlayMsg15": {
+    "message": "Η χειρότερη στιγμή:"
+  },
+  "PlayMsg16": {
+    "message": "Μέσος όρος 5:"
+  },
+  "PlayMsg17": {
+    "message": "Μέσος όρος 12:"
+  },
+  "PlayMsg18": {
+    "message": "Μέσος όρος 25:"
+  }
+}

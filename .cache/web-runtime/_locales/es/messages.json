@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Por favor califícanos"
+  },
+  "PopupMsg2": {
+    "message": "Haga clic aquí para jugar."
+  },
+  "PlayMsg9": {
+    "message": "Matiz"
+  },
+  "PlayMsg10": {
+    "message": "Saturación"
+  },
+  "application_description": {
+    "message": "¡Gratis! Juega al Cubo de Rubik directamente en tu navegador."
+  },
+  "application_title": {
+    "message": "Cubo de Rubik para Google Chrome"
+  },
+  "short_title": {
+    "message": "Cubo de Rubik"
+  },
+  "PopupMsg1": {
+    "message": "¡Libre! Juega Rubik directamente en tu navegador."
+  },
+  "PlayMsg1": {
+    "message": "Toca dos veces para comenzar"
+  },
+  "PlayMsg2": {
+    "message": "¡Completo!"
+  },
+  "PlayMsg3": {
+    "message": "¡El mejor momento!"
+  },
+  "PlayMsg4": {
+    "message": "Tamaño del cubo"
+  },
+  "PlayMsg5": {
+    "message": "Tipo de volteo"
+  },
+  "PlayMsg6": {
+    "message": "Longitud del revuelo"
+  },
+  "PlayMsg7": {
+    "message": "Ángulo de la cámara"
+  },
+  "PlayMsg8": {
+    "message": "Esquema de colores"
+  },
+  "PlayMsg11": {
+    "message": "Ligereza"
+  },
+  "PlayMsg12": {
+    "message": "Cubo:"
+  },
+  "PlayMsg13": {
+    "message": "Resoluciones totales:"
+  },
+  "PlayMsg14": {
+    "message": "Mejor época:"
+  },
+  "PlayMsg15": {
+    "message": "El peor momento:"
+  },
+  "PlayMsg16": {
+    "message": "Promedio de 5:"
+  },
+  "PlayMsg17": {
+    "message": "Promedio de 12:"
+  },
+  "PlayMsg18": {
+    "message": "Promedio de 25:"
+  }
+}

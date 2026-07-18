@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Kérjük, értékelje minket"
+  },
+  "PopupMsg2": {
+    "message": "Kattintson ide a játékhoz."
+  },
+  "PlayMsg9": {
+    "message": "Színárnyalat"
+  },
+  "PlayMsg10": {
+    "message": "Telítettség"
+  },
+  "application_description": {
+    "message": "Ingyenes! Játssz Rubik-kockát közvetlenül a böngésződben."
+  },
+  "application_title": {
+    "message": "Rubik-kocka a Google Chrome-hoz"
+  },
+  "short_title": {
+    "message": "Rubik kocka"
+  },
+  "PopupMsg1": {
+    "message": "Ingyenes! Játssz Rubikot közvetlenül a böngésződben."
+  },
+  "PlayMsg1": {
+    "message": "Koppintson duplán az indításhoz"
+  },
+  "PlayMsg2": {
+    "message": "Teljes!"
+  },
+  "PlayMsg3": {
+    "message": "Legjobb idő!"
+  },
+  "PlayMsg4": {
+    "message": "Kocka mérete"
+  },
+  "PlayMsg5": {
+    "message": "Flip Type"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Length"
+  },
+  "PlayMsg7": {
+    "message": "Kamera szöge"
+  },
+  "PlayMsg8": {
+    "message": "Színséma"
+  },
+  "PlayMsg11": {
+    "message": "Könnyűség"
+  },
+  "PlayMsg12": {
+    "message": "Kocka:"
+  },
+  "PlayMsg13": {
+    "message": "Összes megoldás:"
+  },
+  "PlayMsg14": {
+    "message": "Legjobb idő:"
+  },
+  "PlayMsg15": {
+    "message": "Legrosszabb idő:"
+  },
+  "PlayMsg16": {
+    "message": "5-ös átlag:"
+  },
+  "PlayMsg17": {
+    "message": "12-es átlag:"
+  },
+  "PlayMsg18": {
+    "message": "25-ös átlag:"
+  }
+}

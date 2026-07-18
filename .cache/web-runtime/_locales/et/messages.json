@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Palun hinnake meid"
+  },
+  "PopupMsg2": {
+    "message": "Mängimiseks klõpsake siin."
+  },
+  "PlayMsg9": {
+    "message": "Värvitoon"
+  },
+  "PlayMsg10": {
+    "message": "Küllastus"
+  },
+  "application_description": {
+    "message": "Tasuta! Mängige Rubiku kuubikut otse oma brauseris."
+  },
+  "application_title": {
+    "message": "Rubiku kuubik Google Chrome&#39;i jaoks"
+  },
+  "short_title": {
+    "message": "Rubiku kuubik"
+  },
+  "PopupMsg1": {
+    "message": "Tasuta! Mängi Rubiki otse oma brauseris."
+  },
+  "PlayMsg1": {
+    "message": "Topeltpuudutage alustamiseks"
+  },
+  "PlayMsg2": {
+    "message": "Lõpeta!"
+  },
+  "PlayMsg3": {
+    "message": "Parim aeg!"
+  },
+  "PlayMsg4": {
+    "message": "Kuubiku suurus"
+  },
+  "PlayMsg5": {
+    "message": "Pööramise tüüp"
+  },
+  "PlayMsg6": {
+    "message": "Scramble pikkus"
+  },
+  "PlayMsg7": {
+    "message": "Kaamera nurk"
+  },
+  "PlayMsg8": {
+    "message": "Värviskeem"
+  },
+  "PlayMsg11": {
+    "message": "Kergus"
+  },
+  "PlayMsg12": {
+    "message": "Kuubik:"
+  },
+  "PlayMsg13": {
+    "message": "Lahendusi kokku:"
+  },
+  "PlayMsg14": {
+    "message": "Parim aeg:"
+  },
+  "PlayMsg15": {
+    "message": "Halvim aeg:"
+  },
+  "PlayMsg16": {
+    "message": "Keskmine 5:"
+  },
+  "PlayMsg17": {
+    "message": "Keskmine 12:"
+  },
+  "PlayMsg18": {
+    "message": "Keskmine 25:"
+  }
+}

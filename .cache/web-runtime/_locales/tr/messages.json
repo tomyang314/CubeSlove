@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Lütfen Bizi Değerlendirin"
+  },
+  "PopupMsg2": {
+    "message": "Oynamak için buraya tıklayın."
+  },
+  "PlayMsg9": {
+    "message": "renk"
+  },
+  "PlayMsg10": {
+    "message": "Doyma"
+  },
+  "application_description": {
+    "message": "Ücretsiz! Rubik Küpü&#39;nü doğrudan tarayıcınızda oynayın."
+  },
+  "application_title": {
+    "message": "Google Chrome için Rubik Küpü"
+  },
+  "short_title": {
+    "message": "Rubik Küpü"
+  },
+  "PopupMsg1": {
+    "message": "Bedava! Rubik&#39;i doğrudan tarayıcınızda oynayın."
+  },
+  "PlayMsg1": {
+    "message": "Başlamak için iki kez dokunun"
+  },
+  "PlayMsg2": {
+    "message": "Tamamlamak!"
+  },
+  "PlayMsg3": {
+    "message": "En İyi Zaman!"
+  },
+  "PlayMsg4": {
+    "message": "Küp Boyutu"
+  },
+  "PlayMsg5": {
+    "message": "Çevirme Tipi"
+  },
+  "PlayMsg6": {
+    "message": "Karıştırma Uzunluğu"
+  },
+  "PlayMsg7": {
+    "message": "Kamera Açısı"
+  },
+  "PlayMsg8": {
+    "message": "Renk Şeması"
+  },
+  "PlayMsg11": {
+    "message": "Hafiflik"
+  },
+  "PlayMsg12": {
+    "message": "Küp:"
+  },
+  "PlayMsg13": {
+    "message": "Toplam çözümler:"
+  },
+  "PlayMsg14": {
+    "message": "En iyi zaman:"
+  },
+  "PlayMsg15": {
+    "message": "En kötü zaman:"
+  },
+  "PlayMsg16": {
+    "message": "5&#39;in ortalaması:"
+  },
+  "PlayMsg17": {
+    "message": "12&#39;nin ortalaması:"
+  },
+  "PlayMsg18": {
+    "message": "25&#39;in ortalaması:"
+  }
+}

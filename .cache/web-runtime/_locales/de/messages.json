@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Bitte bewerten Sie uns"
+  },
+  "PopupMsg2": {
+    "message": "Klicken Sie hier, um zu spielen."
+  },
+  "PlayMsg9": {
+    "message": "Farbton"
+  },
+  "PlayMsg10": {
+    "message": "Sättigung"
+  },
+  "application_description": {
+    "message": "Kostenlos! Spielen Sie Rubik Cube direkt in Ihrem Browser."
+  },
+  "application_title": {
+    "message": "Rubik Cube für Google Chrome"
+  },
+  "short_title": {
+    "message": "Zauberwürfel"
+  },
+  "PopupMsg1": {
+    "message": "Frei! Spielen Sie Rubik direkt in Ihrem Browser."
+  },
+  "PlayMsg1": {
+    "message": "Zum Starten doppeltippen"
+  },
+  "PlayMsg2": {
+    "message": "Vollständig!"
+  },
+  "PlayMsg3": {
+    "message": "Beste Zeit!"
+  },
+  "PlayMsg4": {
+    "message": "Würfelgröße"
+  },
+  "PlayMsg5": {
+    "message": "Flip-Typ"
+  },
+  "PlayMsg6": {
+    "message": "Scramble-Länge"
+  },
+  "PlayMsg7": {
+    "message": "Kamerawinkel"
+  },
+  "PlayMsg8": {
+    "message": "Farbschema"
+  },
+  "PlayMsg11": {
+    "message": "Leichtigkeit"
+  },
+  "PlayMsg12": {
+    "message": "Würfel:"
+  },
+  "PlayMsg13": {
+    "message": "Insgesamt gelöst:"
+  },
+  "PlayMsg14": {
+    "message": "Beste Zeit:"
+  },
+  "PlayMsg15": {
+    "message": "Schlimmste Zeit:"
+  },
+  "PlayMsg16": {
+    "message": "Durchschnitt von 5:"
+  },
+  "PlayMsg17": {
+    "message": "Durchschnitt von 12:"
+  },
+  "PlayMsg18": {
+    "message": "Durchschnitt von 25:"
+  }
+}

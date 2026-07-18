@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Molimo ocijenite nas"
+  },
+  "PopupMsg2": {
+    "message": "Kliknite ovdje za igru."
+  },
+  "PlayMsg9": {
+    "message": "nijansa"
+  },
+  "PlayMsg10": {
+    "message": "zasićenje"
+  },
+  "application_description": {
+    "message": "Besplatno! Igrajte Rubik Cube izravno u svom pregledniku."
+  },
+  "application_title": {
+    "message": "Rubikova kocka za Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubikova kocka"
+  },
+  "PopupMsg1": {
+    "message": "Besplatno! Reproducirajte Rubik izravno na vašem pregledniku."
+  },
+  "PlayMsg1": {
+    "message": "Dodirnite dvaput za početak"
+  },
+  "PlayMsg2": {
+    "message": "Završeno!"
+  },
+  "PlayMsg3": {
+    "message": "Najbolje vrijeme!"
+  },
+  "PlayMsg4": {
+    "message": "Veličina kocke"
+  },
+  "PlayMsg5": {
+    "message": "Flip Vrsta"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Length"
+  },
+  "PlayMsg7": {
+    "message": "Kut kamere"
+  },
+  "PlayMsg8": {
+    "message": "Shema boja"
+  },
+  "PlayMsg11": {
+    "message": "Lakoća"
+  },
+  "PlayMsg12": {
+    "message": "Kocka:"
+  },
+  "PlayMsg13": {
+    "message": "Ukupno rješenja:"
+  },
+  "PlayMsg14": {
+    "message": "Najbolje vrijeme:"
+  },
+  "PlayMsg15": {
+    "message": "Najgore vrijeme:"
+  },
+  "PlayMsg16": {
+    "message": "Prosjek 5:"
+  },
+  "PlayMsg17": {
+    "message": "Prosjek 12:"
+  },
+  "PlayMsg18": {
+    "message": "Prosjek 25:"
+  }
+}

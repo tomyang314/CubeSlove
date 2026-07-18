@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Oceń nas"
+  },
+  "PopupMsg2": {
+    "message": "Kliknij tutaj, aby zagrać."
+  },
+  "PlayMsg9": {
+    "message": "Odcień"
+  },
+  "PlayMsg10": {
+    "message": "Nasycenie"
+  },
+  "application_description": {
+    "message": "Za darmo! Graj w Rubik Cube bezpośrednio w swojej przeglądarce."
+  },
+  "application_title": {
+    "message": "Kostka Rubika dla Google Chrome"
+  },
+  "short_title": {
+    "message": "Kostka Rubika"
+  },
+  "PopupMsg1": {
+    "message": "Darmowy! Graj w Rubika bezpośrednio w przeglądarce."
+  },
+  "PlayMsg1": {
+    "message": "Kliknij dwukrotnie, aby rozpocząć"
+  },
+  "PlayMsg2": {
+    "message": "Kompletny!"
+  },
+  "PlayMsg3": {
+    "message": "Najlepszy czas!"
+  },
+  "PlayMsg4": {
+    "message": "Rozmiar kostki"
+  },
+  "PlayMsg5": {
+    "message": "Typ odwrócenia"
+  },
+  "PlayMsg6": {
+    "message": "Długość mieszania"
+  },
+  "PlayMsg7": {
+    "message": "Kąt kamery"
+  },
+  "PlayMsg8": {
+    "message": "Schemat kolorów"
+  },
+  "PlayMsg11": {
+    "message": "Lekkość"
+  },
+  "PlayMsg12": {
+    "message": "Sześcian:"
+  },
+  "PlayMsg13": {
+    "message": "Łączna liczba rozwiązań:"
+  },
+  "PlayMsg14": {
+    "message": "Najlepszy czas:"
+  },
+  "PlayMsg15": {
+    "message": "Najgorszy czas:"
+  },
+  "PlayMsg16": {
+    "message": "Średnia z 5:"
+  },
+  "PlayMsg17": {
+    "message": "Średnia z 12:"
+  },
+  "PlayMsg18": {
+    "message": "Średnia z 25:"
+  }
+}

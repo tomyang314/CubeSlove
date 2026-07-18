@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Lūdzu, novērtējiet mūs"
+  },
+  "PopupMsg2": {
+    "message": "Noklikšķiniet šeit, lai spēlētu."
+  },
+  "PlayMsg9": {
+    "message": "nokrāsa"
+  },
+  "PlayMsg10": {
+    "message": "Piesātinājums"
+  },
+  "application_description": {
+    "message": "Bezmaksas! Spēlējiet Rubika kubu tieši savā pārlūkprogrammā."
+  },
+  "application_title": {
+    "message": "Rubika kubs pārlūkam Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubika kubs"
+  },
+  "PopupMsg1": {
+    "message": "Bezmaksas! Spēlējiet Rubik tieši savā pārlūkprogrammā."
+  },
+  "PlayMsg1": {
+    "message": "Veiciet dubultskārienu, lai sāktu"
+  },
+  "PlayMsg2": {
+    "message": "Pabeigts!"
+  },
+  "PlayMsg3": {
+    "message": "Labākais laiks!"
+  },
+  "PlayMsg4": {
+    "message": "Kuba izmērs"
+  },
+  "PlayMsg5": {
+    "message": "Pārvēršanas veids"
+  },
+  "PlayMsg6": {
+    "message": "Mocekļa garums"
+  },
+  "PlayMsg7": {
+    "message": "Kameras leņķis"
+  },
+  "PlayMsg8": {
+    "message": "Krāsu shēma"
+  },
+  "PlayMsg11": {
+    "message": "Vieglums"
+  },
+  "PlayMsg12": {
+    "message": "Kubs:"
+  },
+  "PlayMsg13": {
+    "message": "Kopējie atrisinājumi:"
+  },
+  "PlayMsg14": {
+    "message": "Labākais laiks:"
+  },
+  "PlayMsg15": {
+    "message": "Sliktākais laiks:"
+  },
+  "PlayMsg16": {
+    "message": "Vidēji 5:"
+  },
+  "PlayMsg17": {
+    "message": "Vidēji 12:"
+  },
+  "PlayMsg18": {
+    "message": "Vidēji 25:"
+  }
+}

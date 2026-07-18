@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Silakan Beri Nilai Kami"
+  },
+  "PopupMsg2": {
+    "message": "Klik Di Sini untuk Bermain."
+  },
+  "PlayMsg9": {
+    "message": "Warna"
+  },
+  "PlayMsg10": {
+    "message": "Kejenuhan"
+  },
+  "application_description": {
+    "message": "Gratis! Mainkan Rubik Cube langsung di peramban Anda."
+  },
+  "application_title": {
+    "message": "Kubus Rubik untuk Google Chrome"
+  },
+  "short_title": {
+    "message": "Kubus Rubik"
+  },
+  "PopupMsg1": {
+    "message": "Gratis! Mainkan Rubik langsung di browser Anda."
+  },
+  "PlayMsg1": {
+    "message": "Ketuk dua kali untuk memulai"
+  },
+  "PlayMsg2": {
+    "message": "Menyelesaikan!"
+  },
+  "PlayMsg3": {
+    "message": "Waktu Terbaik!"
+  },
+  "PlayMsg4": {
+    "message": "Ukuran Kubus"
+  },
+  "PlayMsg5": {
+    "message": "Tipe Flip"
+  },
+  "PlayMsg6": {
+    "message": "Panjang Perebutan"
+  },
+  "PlayMsg7": {
+    "message": "Sudut Kamera"
+  },
+  "PlayMsg8": {
+    "message": "Skema Warna"
+  },
+  "PlayMsg11": {
+    "message": "Keringanan"
+  },
+  "PlayMsg12": {
+    "message": "Kubus:"
+  },
+  "PlayMsg13": {
+    "message": "Total penyelesaian:"
+  },
+  "PlayMsg14": {
+    "message": "Waktu terbaik:"
+  },
+  "PlayMsg15": {
+    "message": "Waktu terburuk:"
+  },
+  "PlayMsg16": {
+    "message": "Rata-rata 5:"
+  },
+  "PlayMsg17": {
+    "message": "Rata-rata 12:"
+  },
+  "PlayMsg18": {
+    "message": "Rata-rata 25:"
+  }
+}

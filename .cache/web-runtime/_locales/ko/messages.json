@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "우리를 평가 해주세요"
+  },
+  "PopupMsg2": {
+    "message": "여기를 클릭하여 플레이하세요."
+  },
+  "PlayMsg9": {
+    "message": "색조"
+  },
+  "PlayMsg10": {
+    "message": "포화"
+  },
+  "application_description": {
+    "message": "무료! 브라우저에서 바로 루빅큐브를 플레이하세요."
+  },
+  "application_title": {
+    "message": "구글 크롬용 루빅큐브"
+  },
+  "short_title": {
+    "message": "루빅큐브"
+  },
+  "PopupMsg1": {
+    "message": "비어 있는! 브라우저에서 바로 Rubik을 플레이하세요."
+  },
+  "PlayMsg1": {
+    "message": "시작하려면 두 번 탭하세요"
+  },
+  "PlayMsg2": {
+    "message": "완벽한!"
+  },
+  "PlayMsg3": {
+    "message": "최고의 시간!"
+  },
+  "PlayMsg4": {
+    "message": "큐브 크기"
+  },
+  "PlayMsg5": {
+    "message": "플립 타입"
+  },
+  "PlayMsg6": {
+    "message": "스크램블 길이"
+  },
+  "PlayMsg7": {
+    "message": "카메라 각도"
+  },
+  "PlayMsg8": {
+    "message": "색상 구성표"
+  },
+  "PlayMsg11": {
+    "message": "가벼움"
+  },
+  "PlayMsg12": {
+    "message": "입방체:"
+  },
+  "PlayMsg13": {
+    "message": "총 해결 횟수:"
+  },
+  "PlayMsg14": {
+    "message": "가장 좋은 시간:"
+  },
+  "PlayMsg15": {
+    "message": "최악의 시간:"
+  },
+  "PlayMsg16": {
+    "message": "평균 5:"
+  },
+  "PlayMsg17": {
+    "message": "12의 평균:"
+  },
+  "PlayMsg18": {
+    "message": "25의 평균:"
+  }
+}

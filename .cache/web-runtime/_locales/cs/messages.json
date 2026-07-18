@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Ohodnoťte nás"
+  },
+  "PopupMsg2": {
+    "message": "Chcete-li hrát, klikněte sem."
+  },
+  "PlayMsg9": {
+    "message": "Odstín"
+  },
+  "PlayMsg10": {
+    "message": "Nasycení"
+  },
+  "application_description": {
+    "message": "Uvolnit! Zahrajte si Rubik Cube přímo ve svém prohlížeči."
+  },
+  "application_title": {
+    "message": "Rubik Cube pro Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubikova kostka"
+  },
+  "PopupMsg1": {
+    "message": "Volný, uvolnit! Hrajte Rubik přímo ve svém prohlížeči."
+  },
+  "PlayMsg1": {
+    "message": "Začněte dvojitým klepnutím"
+  },
+  "PlayMsg2": {
+    "message": "Kompletní!"
+  },
+  "PlayMsg3": {
+    "message": "Nejlepší čas!"
+  },
+  "PlayMsg4": {
+    "message": "Velikost kostky"
+  },
+  "PlayMsg5": {
+    "message": "Typ převrácení"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Délka"
+  },
+  "PlayMsg7": {
+    "message": "Úhel kamery"
+  },
+  "PlayMsg8": {
+    "message": "Barevné schéma"
+  },
+  "PlayMsg11": {
+    "message": "Lehkost"
+  },
+  "PlayMsg12": {
+    "message": "Krychle:"
+  },
+  "PlayMsg13": {
+    "message": "Celkem řeší:"
+  },
+  "PlayMsg14": {
+    "message": "Nejlepší čas:"
+  },
+  "PlayMsg15": {
+    "message": "Nejhorší čas:"
+  },
+  "PlayMsg16": {
+    "message": "Průměr 5:"
+  },
+  "PlayMsg17": {
+    "message": "Průměr 12:"
+  },
+  "PlayMsg18": {
+    "message": "Průměr 25:"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Paki-rate sa Amin"
+  },
+  "PopupMsg2": {
+    "message": "Mag-click Dito para Maglaro."
+  },
+  "PlayMsg9": {
+    "message": "kulay"
+  },
+  "PlayMsg10": {
+    "message": "lunod"
+  },
+  "application_description": {
+    "message": "Libre! I-play ang Rubik Cube sa iyong browser."
+  },
+  "application_title": {
+    "message": "Rubik Cube para sa Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik Cube"
+  },
+  "PopupMsg1": {
+    "message": "Libre! Maglaro ng Rubik mismo sa iyong browser."
+  },
+  "PlayMsg1": {
+    "message": "I-double tap para magsimula"
+  },
+  "PlayMsg2": {
+    "message": "Kumpleto na!"
+  },
+  "PlayMsg3": {
+    "message": "Pinakamahusay na Oras!"
+  },
+  "PlayMsg4": {
+    "message": "Sukat ng Cube"
+  },
+  "PlayMsg5": {
+    "message": "Uri ng Flip"
+  },
+  "PlayMsg6": {
+    "message": "Haba ng Scramble"
+  },
+  "PlayMsg7": {
+    "message": "Anggulo ng Camera"
+  },
+  "PlayMsg8": {
+    "message": "Kulay Scheme"
+  },
+  "PlayMsg11": {
+    "message": "Kagaanan"
+  },
+  "PlayMsg12": {
+    "message": "Cube:"
+  },
+  "PlayMsg13": {
+    "message": "Mga kabuuang solve:"
+  },
+  "PlayMsg14": {
+    "message": "Pinakamahusay na oras:"
+  },
+  "PlayMsg15": {
+    "message": "Pinakamahinang oras:"
+  },
+  "PlayMsg16": {
+    "message": "Average ng 5:"
+  },
+  "PlayMsg17": {
+    "message": "Average ng 12:"
+  },
+  "PlayMsg18": {
+    "message": "Average ng 25:"
+  }
+}

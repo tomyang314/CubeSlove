@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Vänligen betygsätt oss"
+  },
+  "PopupMsg2": {
+    "message": "Klicka här för att spela."
+  },
+  "PlayMsg9": {
+    "message": "Nyans"
+  },
+  "PlayMsg10": {
+    "message": "Mättnad"
+  },
+  "application_description": {
+    "message": "Gratis! Spela Rubik Cube direkt i din webbläsare."
+  },
+  "application_title": {
+    "message": "Rubik Cube för Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik Cube"
+  },
+  "PopupMsg1": {
+    "message": "Fri! Spela Rubik direkt i din webbläsare."
+  },
+  "PlayMsg1": {
+    "message": "Dubbeltryck för att starta"
+  },
+  "PlayMsg2": {
+    "message": "Komplett!"
+  },
+  "PlayMsg3": {
+    "message": "Bästa tiden!"
+  },
+  "PlayMsg4": {
+    "message": "Kubstorlek"
+  },
+  "PlayMsg5": {
+    "message": "Vänd typ"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Längd"
+  },
+  "PlayMsg7": {
+    "message": "Kameravinkel"
+  },
+  "PlayMsg8": {
+    "message": "Färgschema"
+  },
+  "PlayMsg11": {
+    "message": "Lätthet"
+  },
+  "PlayMsg12": {
+    "message": "Kub:"
+  },
+  "PlayMsg13": {
+    "message": "Totalt löser:"
+  },
+  "PlayMsg14": {
+    "message": "Bästa tiden:"
+  },
+  "PlayMsg15": {
+    "message": "Sämsta tiden:"
+  },
+  "PlayMsg16": {
+    "message": "Genomsnitt av 5:"
+  },
+  "PlayMsg17": {
+    "message": "Genomsnitt av 12:"
+  },
+  "PlayMsg18": {
+    "message": "Genomsnitt av 25:"
+  }
+}

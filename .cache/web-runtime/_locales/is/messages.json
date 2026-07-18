@@ -1,0 +1,74 @@
+{
+  "RateUs": {
+    "message": "Vinsamlegast metið okkur"
+  },
+  "PopupMsg2": {
+    "message": "Smelltu hér til að spila."
+  },
+  "PlayMsg9": {
+    "message": "Litblær"
+  },
+  "PlayMsg10": {
+    "message": "Mettun"
+  },
+  "application_description": {
+    "message": "Ókeypis! Spilaðu Rubik Cube beint í vafranum þínum."
+  },
+  "application_title": {
+    "message": "Rubik Cube fyrir Google Chrome"
+  },
+  "short_title": {
+    "message": "Rubik teningur"
+  },
+  "PopupMsg1": {
+    "message": "Ókeypis! Spilaðu Rubik beint í vafranum þínum."
+  },
+  "PlayMsg1": {
+    "message": "Ýttu tvisvar til að byrja"
+  },
+  "PlayMsg2": {
+    "message": "Fullkomið!"
+  },
+  "PlayMsg3": {
+    "message": "Besti tíminn!"
+  },
+  "PlayMsg4": {
+    "message": "Teningastærð"
+  },
+  "PlayMsg5": {
+    "message": "Flip Tegund"
+  },
+  "PlayMsg6": {
+    "message": "Scramble Lengd"
+  },
+  "PlayMsg7": {
+    "message": "Myndavélarhorn"
+  },
+  "PlayMsg8": {
+    "message": "Litasamsetning"
+  },
+  "PlayMsg11": {
+    "message": "Léttleiki"
+  },
+  "PlayMsg12": {
+    "message": "teningur:"
+  },
+  "PlayMsg13": {
+    "message": "Samtals leysir:"
+  },
+  "PlayMsg14": {
+    "message": "Besti tíminn:"
+  },
+  "PlayMsg15": {
+    "message": "Versti tími:"
+  },
+  "PlayMsg16": {
+    "message": "Meðaltal 5:"
+  },
+  "PlayMsg17": {
+    "message": "Meðaltal 12:"
+  },
+  "PlayMsg18": {
+    "message": "Meðaltal 25:"
+  }
+}
