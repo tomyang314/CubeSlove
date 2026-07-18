@@ -1,108 +1,83 @@
-import pyautogui
-from command import *
-from tools import Mouse, Screen, get_image
-import webbrowser
-import time
+import os
 import re
+from pathlib import Path
+
+from command import command
+from config import (
+    BROWSER_WINDOW_HEIGHT,
+    BROWSER_WINDOW_WIDTH,
+    CAPTURE_FALLBACK_OFFSET_Y,
+    CAPTURE_SIZE,
+    CHROME_PATH,
+    EXTENSION_CRX_PATH,
+    KEEP_BROWSER_OPEN,
+    MOVE_DURATION_MS,
+    PAGE_TIMEOUT_SECONDS,
+)
 from optimization import optimization
+from tools import Screen, get_image
+from web_cube import ChromeCubeController, CubeControlError, MoveSyntaxError
 
 
-position = (960, 910)
-path = "C:/Program Files/Google/Chrome/Application/chrome.exe"  # 安装了魔方插件的chrome浏览器的路径
+def run(execute_code: str, controller: ChromeCubeController):
+    """Send the complete solution to the page without moving the mouse."""
 
-mouse = Mouse()
-screen = Screen()
-
-
-def run(execute_code: str):
-    for val in re.split(r"[ ]+", execute_code):
-        if val == "U1":
-            mouse.up(0)
-        elif val == "U3":
-            mouse.up(1)
-        elif val == "U2":
-            mouse.up(2)
-
-        elif val == "D1":
-            mouse.down(0)
-        elif val == "D3":
-            mouse.down(1)
-        elif val == "D2":
-            mouse.down(2)
-
-        elif val == "L1":
-            mouse.left(0)
-        elif val == "L3":
-            mouse.left(1)
-        elif val == "L2":
-            mouse.left(2)
-
-        elif val == "R1":
-            mouse.right(0)
-        elif val == "R3":
-            mouse.right(1)
-        elif val == "R2":
-            mouse.right(2)
-
-        elif val == "F1":
-            mouse.front(0)
-        elif val == "F3":
-            mouse.front(1)
-        elif val == "F2":
-            mouse.front(2)
-
-        elif val == "B1":
-            mouse.behind(0)
-        elif val == "B3":
-            mouse.behind(1)
-        elif val == "B2":
-            mouse.behind(2)
-
-        elif val == "X1":
-            mouse.x_axis(0)
-        elif val == "X3":
-            mouse.x_axis(1)
-        elif val == "X2":
-            mouse.x_axis(2)
-
-        elif val == "Y1":
-            mouse.y_axis(0)
-        elif val == "Y3":
-            mouse.y_axis(1)
-        elif val == "Y2":
-            mouse.y_axis(2)
-
-        elif val == "Z1":
-            mouse.z_axis(0)
-
-        elif val == "Z3":
-            mouse.z_axis(1)
-
-        elif val == "Z2":
-            mouse.z_axis(2)
+    return controller.execute_solution(execute_code)
 
 
-def run_chrome():
-    webbrowser.register("Chrome", None, webbrowser.BackgroundBrowser(path))
-    webbrowser.get("Chrome").open('chrome-extension://dlabgdldanmcjlmnifgogbnffionmfki/index.html', new=1,
-                                  autoraise=True)
+def run_chrome() -> ChromeCubeController:
+    controller = ChromeCubeController(
+        chrome_path=CHROME_PATH,
+        extension_crx_path=EXTENSION_CRX_PATH,
+        move_duration_ms=MOVE_DURATION_MS,
+        keep_browser_open=KEEP_BROWSER_OPEN,
+        page_timeout_seconds=PAGE_TIMEOUT_SECONDS,
+        window_width=BROWSER_WINDOW_WIDTH,
+        window_height=BROWSER_WINDOW_HEIGHT,
+    )
+    engine = controller.open()
+    print("本地网页控制接口已连接：{}；正在自动开始并随机打乱…".format(engine))
+    controller.start_game()
+    print("网页已自动开始，随机打乱完成（无需双击）")
+    return controller
 
-    time.sleep(6)
 
-    pyautogui.moveTo(position)
-    pyautogui.doubleClick()
+def main():
+    # command.py intentionally remains unchanged and reads ./Image/*.jpg.
+    os.chdir(str(Path(__file__).resolve().parent))
+    controller = run_chrome()
+    try:
+        screen = Screen(
+            controller,
+            cube_side=CAPTURE_SIZE,
+            fallback_offset_y=CAPTURE_FALLBACK_OFFSET_Y,
+        )
 
-    time.sleep(6)
+        # The four views are now rotated and captured inside Chrome. command.py's
+        # colour recognition and two-phase solving logic remain unchanged.
+        get_image(controller, screen)
+        code = command()
+        print(code + '\t', len(re.split(r"\s+", code.strip())))
+
+        code_new = optimization(code)
+        print(code_new + '\t', len(re.split(r"\s+", code_new.strip())))
+
+        # Execute the solver's exact sequence. optimization.py was written for
+        # old screen-coordinate gestures (its X/Y/Z substitutions are view
+        # changes), whereas the page API addresses intrinsic cube faces.
+        report = run(code_new, controller)
+        print(
+            "网页端执行完成：{} 步（{} 个 90° 动作），耗时 {:.3f} 秒".format(
+                report.moves, report.quarter_turns, report.elapsed_seconds
+            )
+        )
+    finally:
+        if not KEEP_BROWSER_OPEN:
+            controller.close()
 
 
 if __name__ == '__main__':
-    run_chrome()
-
-    get_image(mouse, screen)
-    code = command()
-    print(code + '\t', len(re.split(r"\s+", code.strip())))
-
-    code_new = optimization(code)
-    print(code_new + '\t', len(re.split(r"\s+", code_new.strip())))
-
-    run(code_new)
+    try:
+        main()
+    except (CubeControlError, MoveSyntaxError) as exc:
+        raise SystemExit("网页魔方控制失败：{}".format(exc))

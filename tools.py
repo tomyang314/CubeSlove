@@ -1,179 +1,70 @@
-import pyautogui
-import cv2 as cv
-import numpy as np
-import time
+"""Browser-side view capture helpers.
 
+The original module moved the operating-system mouse with PyAutoGUI and took
+fixed desktop screenshots.  This version asks Chrome to rotate the whole cube
+and captures the browser viewport directly, so neither operation touches the
+user's pointer or depends on desktop coordinates.
+"""
 
-class Mouse:
-    def __init__(self):
-        self.offset = 120
-        self.size = tuple(pyautogui.size())
-        self.x, self.y = self.size[0] / 2, self.size[1] / 2 + self.offset
-
-    def up_turning(self):
-        pyautogui.moveTo((self.x - 400, self.y + 100))
-        pyautogui.dragRel(50, -300, duration=0.25)
-
-    def down_turning(self):
-        pyautogui.moveTo((self.x - 400, self.y - 300))
-        pyautogui.dragRel(-100, 300, duration=0.25)
-
-    def right_turning(self):
-        pyautogui.moveTo((self.x - 100, self.y + 300))
-        pyautogui.dragRel(300, 0, duration=0.25)
-
-    def up(self, mode):
-        offset_x = 50
-        offset_y = 10
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(-200, 0, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(200, 0, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(950, 250, duration=0.45)
-
-    def down(self, mode):
-        offset_x = 50
-        offset_y = 190  # 170
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(200, 0, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(-200, 0, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(-700, 50, duration=0.5)
-
-    def left(self, mode):
-        offset_x = 200
-        offset_y = 90
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, 200, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, -200, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(900, -550, duration=0.45)
-
-    def right(self, mode):
-        offset_x = 50
-        offset_y = 10
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, -200, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, 200, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y + 180))
-            pyautogui.dragRel(950, -600, duration=0.45)
-
-    def front(self, mode):
-        offset_x = 20
-        offset_y = -60
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, 200, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(0, -200, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(-800, -400, duration=0.45)
-
-    def behind(self, mode):
-        offset_x = 0
-        offset_y = -250
-
-        if mode == 0:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(-300, -60, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(200, 10, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(900, 450, duration=0.45)
-
-    def x_axis(self, mode):
-        offset_x = 120
-        offset_y = -50
-
-        if mode == 0:
-            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
-            pyautogui.dragRel(-15, 200, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
-            pyautogui.dragRel(-15, -200, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - 110, self.y - 225))
-            pyautogui.dragRel(1000, 500, duration=0.45)
-
-    def y_axis(self, mode):
-        offset_x = -120
-        offset_y = -50
-
-        if mode == 0:
-            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
-            pyautogui.dragRel(-15, -200, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
-            pyautogui.dragRel(-15, 200, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x - offset_x - 30, self.y - 200))
-            pyautogui.dragRel(-900, 500, duration=0.45)
-
-    def z_axis(self, mode):
-        offset_x = -50
-        offset_y = 100
-
-        if mode == 0:
-            pyautogui.moveTo((self.x + offset_x, self.y + offset_y))
-            pyautogui.dragRel(-200, 0, duration=0.25)
-        elif mode == 1:
-            pyautogui.moveTo((self.x - offset_x, self.y + offset_y))
-            pyautogui.dragRel(200, 0, duration=0.25)
-        elif mode == 2:
-            pyautogui.moveTo((self.x + 200, self.y + offset_y - 80))
-            pyautogui.dragRel(-900, 200, duration=0.4)
+from pathlib import Path
 
 
 class Screen:
-    def __init__(self):
-        self.cube_side = 600
-        self.offset = 120
-        self.size = tuple(pyautogui.size())
-        self.x, self.y = self.size[0] / 2 - self.cube_side / 2, self.size[1] / 2 - self.cube_side / 2 + self.offset
+    """Save the 600 x 600 recognition images supplied by WebDriver."""
+
+    def __init__(
+        self,
+        controller,
+        cube_side=600,
+        fallback_offset_y=100,
+        image_directory=None,
+    ):
+        self.controller = controller
+        self.cube_side = int(cube_side)
+        self.fallback_offset_y = int(fallback_offset_y)
+        if image_directory is None:
+            image_directory = Path(__file__).resolve().parent / "Image"
+        self.image_directory = Path(image_directory)
 
     def screen_shot(self, index):
-        img = pyautogui.screenshot(region=[self.x, self.y, self.cube_side, self.cube_side])
-        img = cv.cvtColor(np.asarray(img), cv.COLOR_RGB2BGR)
+        """Capture one cube view through Chrome rather than the desktop."""
 
-        cv.imwrite("./Image/{}.jpg".format(index), img)
+        target = self.image_directory / "{}.jpg".format(int(index))
+        return self.controller.capture_cube_image(
+            target,
+            cube_side=self.cube_side,
+            fallback_offset_y=self.fallback_offset_y,
+        )
 
 
-def get_image(mouse, screen):
+def get_image(controller, screen=None):
+    """Capture the four solver views using direct whole-cube page rotations.
+
+    The sequence is equivalent to the old up/down/right mouse gestures and
+    finishes at exactly the same visual orientation at which it started.
+    ``rotate_view`` waits for each page animation, so fixed ``sleep(0.5)`` calls
+    are no longer necessary.
+    """
+
+    if screen is None:
+        screen = Screen(controller)
+
     screen.screen_shot(0)
-    mouse.up_turning()
-    time.sleep(0.5)
+
+    # Old mouse.up_turning(): the old front face moves to the top.
+    controller.rotate_view("x", -1)
     screen.screen_shot(1)
-    mouse.down_turning()
-    mouse.right_turning()
-    time.sleep(0.5)
+
+    # Old mouse.down_turning(); mouse.right_turning()
+    controller.rotate_view("x", 1)
+    controller.rotate_view("y", 1)
     screen.screen_shot(2)
-    mouse.right_turning()
-    time.sleep(0.5)
+
+    # Old mouse.right_turning()
+    controller.rotate_view("y", 1)
     screen.screen_shot(3)
-    mouse.right_turning()
-    mouse.right_turning()
+
+    # Restore the initial view (four positive Y quarter-turns in total).
+    controller.rotate_view("y", 2)
+
+    return [screen.image_directory / "{}.jpg".format(index) for index in range(4)]
